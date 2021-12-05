@@ -9,7 +9,7 @@ This excersize is also a way for me to develop a system to coach and initiate pe
 ![5 Step Program](5step.png)
 
 # Outcome
-Website (WordPress, Jekyll/GoHugo) with mined information. With the cards translated in English, Dutch, and the original German. Later I want to explore the options of searching by ingredients and using filters.
+Website (11ty) with mined information. With the cards translated in English, Dutch, and the original German. Later I want to explore the options of searching by ingredients and using filters.
 
 
 ![Eggsalat](eiersalat1.jpg)
