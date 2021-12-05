@@ -11,6 +11,7 @@ This excersize is also a way for me to develop a system to coach and initiate pe
 # Outcome
 Website (11ty) with mined information. With the cards translated in English, Dutch, and the original German. Later I want to explore the options of searching by ingredients and using filters.
 
-
+![Red Box](IMG_1539.jpg)
 ![Eggsalat](eiersalat1.jpg)
 ![Eggsalat](eiersalat2.jpg)
+
