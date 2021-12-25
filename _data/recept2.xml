@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<annotation>
+  <filename>https://nnts.imgix.net/uploadedfiles/81f1bb44-cade-4336-9b9c-03e694279e4d/PredictionImages/2065671619-2.jpeg?expires=1655986250&amp;or=0&amp;s=45a722433be6e38ff2f86d7d91eb23eb</filename>
+  <object>
+    <name>Titel</name>
+    <bndbox>
+      <xmin>144</xmin>
+      <ymin>137</ymin>
+      <xmax>1011</xmax>
+      <ymax>319</ymax>
+    </bndbox>
+    <ocr_text>Herings-Titbits</ocr_text>
+    <score>0.79277915</score>
+  </object>
+  <object>
+    <name>Type</name>
+    <bndbox>
+      <xmin>1828</xmin>
+      <ymin>282</ymin>
+      <xmax>2169</xmax>
+      <ymax>423</ymax>
+    </bndbox>
+    <ocr_text>Vorspeisen
+Karte Nr. 2</ocr_text>
+    <score>0.9915893</score>
+  </object>
+  <object>
+    <name>prep_2</name>
+    <bndbox>
+      <xmin>148</xmin>
+      <ymin>499</ymin>
+      <xmax>1792</xmax>
+      <ymax>565</ymax>
+    </bndbox>
+    <ocr_text>Zubereitungszeit 30 Min. Wässern 12 Std. Marinieren 24 Std.</ocr_text>
+    <score>0.9944455</score>
+  </object>
+  <object>
+    <name>Zutaten</name>
+    <bndbox>
+      <xmin>115</xmin>
+      <ymin>650</ymin>
+      <xmax>1179</xmax>
+      <ymax>2713</ymax>
+    </bndbox>
+    <ocr_text>12 Salzheringe
+Marinade:
+½ I Wasser
+% I Essig
+5 EBI. Zucker
+1 rote Zwiebel
+1 Teel. gestoßener schwarzer Pfeffer
+6 Lorbeerblätter
+1 Bund Dill
+A) Glasmaster-Sill
+3 der oben beschriebenen Marinade
+1 Möhre
+B) Curry-Sill
+3 EBI. Mayonnaise
+1 EBI. saure Sahne
+1 gehäufter Teel. Curry
+1 gestrichener Teel. edelsüßes
+Paprikapulver
+16 SIlberzwiebeln
+C) Tomato-Sill
+5 EBI. Tomatenketchup
+1 Teel. Zucker
+1 EBI. trockener Sherry
+2 EBI. Marinade
+Herings-Titbits gekühlt servieren
+mit verschiedenen kräftigen Brot-
+sorten (Bauernbrot, Graham-
+brot, Vollkornbrot) und Butter.
+Getränkevorschlag: Bier.</ocr_text>
+    <score>0.9984053</score>
+  </object>
+  <object>
+    <name>Prep</name>
+    <bndbox>
+      <xmin>1261</xmin>
+      <ymin>646</ymin>
+      <xmax>2313</xmax>
+      <ymax>2588</ymax>
+    </bndbox>
+    <ocr_text>Die Salzheringe über Nacht (12 Std.)
+wässern. Aus Wasser, Essig, Zucker,
+der
+Pfeffer, Lorbeerblättern und ge-
+schnittenem Dill eine Marinade rüh-
+ren. Die Heringe filetieren und 24 Std.
+in die Marinade legen.
+A) Die Heringsfilets aus der Mari-
+nade nehmen und % der Marinade
+aufbewahren. Die Möhre waschen,
+schaben, in feine Scheiben schnei-
+den und unter die Marinade mischen.
+kleingeschnittenen Zwiebel,
+8 Heringsfilets in fingerdicke Stücke
+schneiden und ebenfalls darunter-
+mischen. Den Glasmaster-Sill in eine
+Schale füllen und mit Dillspitzen
+garnieren.
+B) Aus den Zutaten eine Currysauce
+rühren, die Silberzwiebeln unzerteilt
+hineingeben. 8 Heringsfilets in kleine
+Stücke schneiden und mit der Curry-
+sauce vermengen.
+C) Tomatenketchup mit Zucker und
+Sherry verrühren, mit etwas Marina-
+de verdünnen und abschmecken. Die
+restlichen 8 Heringsfilets in kleine
+Stücke schneiden und unter die
+Tomatensauce mischen.</ocr_text>
+    <score>0.9994875</score>
+  </object>
+</annotation>

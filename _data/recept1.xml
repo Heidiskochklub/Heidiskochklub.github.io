@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<annotation>
+  <filename>https://nnts.imgix.net/uploadedfiles/81f1bb44-cade-4336-9b9c-03e694279e4d/PredictionImages/1443348649-2.jpeg?expires=1655986250&amp;or=0&amp;s=ef1d249e996f6fb4d8b61c8d4db4c9ed</filename>
+  <object>
+    <name>Titel</name>
+    <bndbox>
+      <xmin>202</xmin>
+      <ymin>159</ymin>
+      <xmax>1095</xmax>
+      <ymax>465</ymax>
+    </bndbox>
+    <ocr_text>Bunte Vor-
+speisenpalette</ocr_text>
+    <score>0.8668124</score>
+  </object>
+  <object>
+    <name>Type</name>
+    <bndbox>
+      <xmin>1880</xmin>
+      <ymin>304</ymin>
+      <xmax>2215</xmax>
+      <ymax>424</ymax>
+    </bndbox>
+    <ocr_text>Vorspeisen Karte Nr. 1</ocr_text>
+    <score>0.99067825</score>
+  </object>
+  <object>
+    <name>prep_2</name>
+    <bndbox>
+      <xmin>200</xmin>
+      <ymin>502</ymin>
+      <xmax>1223</xmax>
+      <ymax>556</ymax>
+    </bndbox>
+    <ocr_text>Zubereitungszeit 10-15 Min. pro Gericht</ocr_text>
+    <score>0.9925216</score>
+  </object>
+  <object>
+    <name>Zutaten</name>
+    <bndbox>
+      <xmin>189</xmin>
+      <ymin>642</ymin>
+      <xmax>1206</xmax>
+      <ymax>2847</ymax>
+    </bndbox>
+    <ocr_text>Sauce Vinalgrette
+3 EBI. weißer Weinessig
+Salz, Pfeffer
+1 Teel. mittelscharfer Senf
+8 EBI. Olivenöl
+A) Lauch à la Vinaigrette
+4 gekochte, kalte Lauchstangen
+1 Tasse Sauce Vinaigrette
+2 EBI. gehackte Petersilie
+B) Tomaten à la Vinaigrette
+04 feste, reife Tomaten
+01 Tasse Sauce Vinaigrette
+1 gehackte Zwiebel
+1 gehackte Knoblauchzehe
+C) Krabben und Spargel
+100 g gekochte und geschälte
+Krabben
+150 g Spargelspitzen aus der Dose
+1 Tasse Sauce Vinaigrette
+02 EBI. fein geschnittener Dill
+D) Eier mit Kaviar
+•4 hartgekochte Eier
+1 kleines Glas roter oder
+schwarzer Kaviar (Kaviarersatz)
+6-8 schwarze oder grüne Oliven
+50 g Mayonnaise
+E) Hühnerleber ,,bonne femme"
+350 g Hühnerleber
+01 Zwiebel, 2 Eier
+1 Teel. Salz, ½ Teel. Pfeffer
+03 EBI. Butter, 1 Schuß Cognac • 100 g Champignons</ocr_text>
+    <score>0.9996635</score>
+  </object>
+  <object>
+    <name>Prep</name>
+    <bndbox>
+      <xmin>1305</xmin>
+      <ymin>647</ymin>
+      <xmax>2337</xmax>
+      <ymax>2918</ymax>
+    </bndbox>
+    <ocr_text>Die Zutaten zur Sauce Vinaigrette
+5 Min. kräftig schlagen.
+A. In die Grundsauce Petersilie geben
+und die Sauce über die Lauchstangen
+gießen.
+B. Tomaten in Scheiben schneiden,
+mit Zwiebel und Knoblauch bestreuen
+und die Grundsauceleichtunterziehen.
+C. Spargel und Krabben vermischen.
+Dill in die Grundsauce rühren und
+über den Salat gießen.
+D. Die geschälten Eier der Länge
+nach halbieren. Auf jede Eihälfte etwas
+Mayonnaise setzen und mit einem
+Klacks Kaviar krönen. Je nach der
+Farbe des Kaviars mit gehackten
+schwarzen oder grünen Oliven ver-
+zieren.
+E. Hühnerleber von Sehnen be-
+freien und in 1 EBI. Butter einige Min.
+braten; die Leber sollen weich und
+innen zartrosa bleiben. Leber in eine
+große Schüssel geben. Zwiebel klein-
+würfeln, Champignons putzen und
+fein hacken und mit etwas Butter in
+der Leberpfanne dünsten. Mit einem
+Schuß Cognac ablöschen und alles
+zu der Leber geben. 2 Eier wachs-
+weich kochen, schälen, auf die Leber
+legen und alles grob zerhacken. Die
+restliche Butter schmelzen und dar-
+übergeben, salzen und pfeffern. Die
+Masse gut verrühren.</ocr_text>
+    <score>0.9995777</score>
+  </object>
+</annotation>

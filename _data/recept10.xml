@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<annotation>
+  <filename>https://nnts.imgix.net/uploadedfiles/81f1bb44-cade-4336-9b9c-03e694279e4d/PredictionImages/64261208-2.jpeg?expires=1655986250&amp;or=0&amp;s=34bbef37568cffabc14ed70b3df234da</filename>
+  <object>
+    <name>Titel</name>
+    <bndbox>
+      <xmin>140</xmin>
+      <ymin>120</ymin>
+      <xmax>659</xmax>
+      <ymax>251</ymax>
+    </bndbox>
+    <ocr_text>Eiersalat</ocr_text>
+    <score>0.9595859</score>
+  </object>
+  <object>
+    <name>Type</name>
+    <bndbox>
+      <xmin>1774</xmin>
+      <ymin>176</ymin>
+      <xmax>2279</xmax>
+      <ymax>395</ymax>
+    </bndbox>
+    <ocr_text>Vorspeisen
+Karte Nr. 16 1</ocr_text>
+    <score>0.9501918</score>
+  </object>
+  <object>
+    <name>prep_2</name>
+    <bndbox>
+      <xmin>132</xmin>
+      <ymin>476</ymin>
+      <xmax>757</xmax>
+      <ymax>533</ymax>
+    </bndbox>
+    <ocr_text>Zubereitungszeit 15 Min.</ocr_text>
+    <score>0.9949482</score>
+  </object>
+  <object>
+    <name>Zutaten</name>
+    <bndbox>
+      <xmin>127</xmin>
+      <ymin>610</ymin>
+      <xmax>1009</xmax>
+      <ymax>1785</ymax>
+    </bndbox>
+    <ocr_text>8 hartgekochte Eier
+2 dicke Scheiben gekochter
+Schinken
+4 Tomaten
+1 Lauchstange.
+1 Stück Salatgurke
+2 EBI. Mayonnaise
+1 EBI. Senf
+1 EBI. Weißweinessig
+Salz, Pfeffer
+1 EBI. Kapern
+1 Bund Schnittlauch
+1 Kopfsalat
+1 Bund Dill oder
+1 Paket Kresse</ocr_text>
+    <score>0.9979606</score>
+  </object>
+  <object>
+    <name>Prep</name>
+    <bndbox>
+      <xmin>1245</xmin>
+      <ymin>610</ymin>
+      <xmax>2290</xmax>
+      <ymax>1935</ymax>
+    </bndbox>
+    <ocr_text>1. Die hartgekochten und ge-
+schälten Eier vierteln, Tomaten
+achteln. Schinken in Streifen,
+Lauch in Ringe und Gurke in
+Scheiben schneiden. In einer
+Schüssel alles mischen.
+2. Mayonnaise mit Senf, Essig,
+Salz und Pfeffer verrühren.
+3. Portionsschalen
+blättern auslegen, den Eiersalat
+darauf häufen und mit Mayonnai-
+sesauce übergießen. Mit Schnitt-
+lauchröllchen und Kapern be-.
+streuen. Nach Geschmack mit
+Dill- oder Kressebüscheln ver-
+mit Salat-
+zieren.</ocr_text>
+    <score>0.99861556</score>
+  </object>
+</annotation>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<annotation>
+  <filename>https://nnts.imgix.net/uploadedfiles/81f1bb44-cade-4336-9b9c-03e694279e4d/PredictionImages/334723643-2.jpeg?expires=1655986250&amp;or=0&amp;s=157e36c97b6dbed4485d206055eff710</filename>
+  <object>
+    <name>Zutaten</name>
+    <bndbox>
+      <xmin>158</xmin>
+      <ymin>587</ymin>
+      <xmax>1121</xmax>
+      <ymax>2409</ymax>
+    </bndbox>
+    <ocr_text>6-8 große Champignons pro
+Person
+60 g Butter
+Füllung: 150 g Hackfleisch
+1 kleine Zwiebel
+1 Bund Petersilie
+1 Ei
+2 Teel. Salz
+frisch gemahlener Pfeffer
+1 Prise Rosenpaprika
+½ Teel. scharfer Senf
+1 Prise Oregano
+½ Teel. Thymian
+Sauce: 2 EBI. Tomatenketchup
+1 Teel. Worcestershiresauce
+1-2 Knoblauchzehen
+Frisch gebacken in der Form
+auftragen. Den Bratensaft mit
+den Pilzen servieren, dazu
+französisches Weißbrot.
+Getränkevorschlag: roter
+Landwein.</ocr_text>
+    <score>0.9985866</score>
+  </object>
+  <object>
+    <name>Vorbereitung</name>
+    <bndbox>
+      <xmin>1249</xmin>
+      <ymin>589</ymin>
+      <xmax>2303</xmax>
+      <ymax>2373</ymax>
+    </bndbox>
+    <ocr_text>1. Champignons kurz waschen
+und die Stiele ausbrechen. Evtl.
+die Hüte mit einem spitzen Mes-
+ser weiter aushöhlen, damit die
+Füllung Platz hat.
+2. Das Hackfleisch mit der sehr
+fein gehackten Zwiebel, der ge-
+wiegten Petersilie, dem Ei und
+den Gewürzen gut vermischen.
+3.Die Champignon-Hüte
+der Fleischmasse reichlich füllen,
+etwa 1 Teel. Füllung pro Pilz.
+Eine feuerfeste Form dick aus-
+buttern und die Pilze neben-
+einander hineinsetzen.
+mit
+4. Aus Ketchup, Worcestershire-
+sauce und geriebenem Knob-
+lauch eine Sauce rühren und
+über die Pilze verteilen. Zuletzt
+Butterflöckchen daraufsetzen.
+Im vorgeheizten Backofen braten.</ocr_text>
+    <score>0.99894327</score>
+  </object>
+  <object>
+    <name>Titel</name>
+    <bndbox>
+      <xmin>160</xmin>
+      <ymin>88</ymin>
+      <xmax>981</xmax>
+      <ymax>411</ymax>
+    </bndbox>
+    <ocr_text>Gefüllte
+Champignons</ocr_text>
+    <score>0.6849663</score>
+  </object>
+  <object>
+    <name>Type</name>
+    <bndbox>
+      <xmin>1823</xmin>
+      <ymin>244</ymin>
+      <xmax>2159</xmax>
+      <ymax>375</ymax>
+    </bndbox>
+    <ocr_text>Vorspeisen
+Karte Nr. 9</ocr_text>
+    <score>0.9898949</score>
+  </object>
+  <object>
+    <name>Anweisungen</name>
+    <bndbox>
+      <xmin>168</xmin>
+      <ymin>442</ymin>
+      <xmax>1779</xmax>
+      <ymax>505</ymax>
+    </bndbox>
+    <ocr_text>Vorbereitungszeit 20 Min. Backzeit 30 Min. Temperatur 200°</ocr_text>
+    <score>0.993789</score>
+  </object>
+</annotation>

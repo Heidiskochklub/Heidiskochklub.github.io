@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<annotation>
+  <filename>https://nnts.imgix.net/uploadedfiles/81f1bb44-cade-4336-9b9c-03e694279e4d/PredictionImages/801971103-2.jpeg?expires=1655986250&amp;or=0&amp;s=29bb4b6cfd0db15522ae6391632c196b</filename>
+  <object>
+    <name>Titel</name>
+    <bndbox>
+      <xmin>159</xmin>
+      <ymin>149</ymin>
+      <xmax>1192</xmax>
+      <ymax>322</ymax>
+    </bndbox>
+    <ocr_text>Krabben-Ragout</ocr_text>
+    <score>0.95238036</score>
+  </object>
+  <object>
+    <name>Type</name>
+    <bndbox>
+      <xmin>1814</xmin>
+      <ymin>199</ymin>
+      <xmax>2289</xmax>
+      <ymax>408</ymax>
+    </bndbox>
+    <ocr_text>Vorspeisen
+Karte Nr. 5 1</ocr_text>
+    <score>0.95187986</score>
+  </object>
+  <object>
+    <name>prep_2</name>
+    <bndbox>
+      <xmin>159</xmin>
+      <ymin>502</ymin>
+      <xmax>784</xmax>
+      <ymax>560</ymax>
+    </bndbox>
+    <ocr_text>Zubereitungszeit 20 Min.</ocr_text>
+    <score>0.9958537</score>
+  </object>
+  <object>
+    <name>Prep</name>
+    <bndbox>
+      <xmin>1249</xmin>
+      <ymin>614</ymin>
+      <xmax>2312</xmax>
+      <ymax>2452</ymax>
+    </bndbox>
+    <ocr_text>1. Zwiebeln hacken und die ge-
+putzten Champignons in Schei-
+ben schneiden. Beides in Butter
+leicht anbraten und etwas Mehl
+darüberstäuben. Mit der heißen
+Bouillon ablöschen, Sahne zu-
+geben und die Sauce bei schwa-
+cher Hitze etwa 5 Min. köcheln
+lassen.
+2. 50 g Krabben mit einer Gabel
+zerdrücken und mit Joghurt und
+Zitronensaft in die Sauce rühren.
+Die restlichen Krabben darin
+wenden. Nicht mehr kochen,
+sonst werden die Krabben zäh!
+Mit Salz, Pfeffer und trockenem
+Sherry abschmecken.
+Anmerkung: Tiefgefrorene Krab-
+ben schmecken wie frisch ge-
+kocht, wenn man sie mit Dill in
+kochendheißes Salzwasser legt
+und darin abkühlen läßt.</ocr_text>
+    <score>0.99966913</score>
+  </object>
+  <object>
+    <name>Zutaten</name>
+    <bndbox>
+      <xmin>146</xmin>
+      <ymin>634</ymin>
+      <xmax>1077</xmax>
+      <ymax>1975</ymax>
+    </bndbox>
+    <ocr_text>2 kleine Zwiebeln
+250 g Champignons
+2 EBI. Butter
+2 Teel. Mehl
+% I Fleischbrühe
+I Sahne
+2 EBI. Joghurt
+Zitronensaft
+200 g geschälte Krabben
+Salz, weißer Pfeffer
+1 EBI. trockener Sherry
+Auf vorgewärmten Tellern
+heiß servieren. Dazu frische
+Brötchen reichen.
+Getränkevorschlag: trockener
+französischer Weißwein.</ocr_text>
+    <score>0.99446684</score>
+  </object>
+</annotation>

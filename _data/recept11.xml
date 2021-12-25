@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<annotation>
+  <filename>https://nnts.imgix.net/uploadedfiles/81f1bb44-cade-4336-9b9c-03e694279e4d/PredictionImages/396613510-2.jpeg?expires=1655986250&amp;or=0&amp;s=eb64339d7f70a357a38f1f18ce8030fd</filename>
+  <object>
+    <name>Titel</name>
+    <bndbox>
+      <xmin>134</xmin>
+      <ymin>144</ymin>
+      <xmax>807</xmax>
+      <ymax>464</ymax>
+    </bndbox>
+    <ocr_text>Melonen-
+Vorspeisen</ocr_text>
+    <score>0.80735993</score>
+  </object>
+  <object>
+    <name>Type</name>
+    <bndbox>
+      <xmin>1808</xmin>
+      <ymin>195</ymin>
+      <xmax>2298</xmax>
+      <ymax>423</ymax>
+    </bndbox>
+    <ocr_text>1 Vorspeisen
+Karte Nr. 8</ocr_text>
+    <score>0.98134077</score>
+  </object>
+  <object>
+    <name>prep_2</name>
+    <bndbox>
+      <xmin>136</xmin>
+      <ymin>506</ymin>
+      <xmax>1139</xmax>
+      <ymax>565</ymax>
+    </bndbox>
+    <ocr_text>Kühlen 1 Std. Zubereitungszeit 5 Min.</ocr_text>
+    <score>0.99474096</score>
+  </object>
+  <object>
+    <name>Zutaten</name>
+    <bndbox>
+      <xmin>122</xmin>
+      <ymin>647</ymin>
+      <xmax>1143</xmax>
+      <ymax>1552</ymax>
+    </bndbox>
+    <ocr_text>¼ sehr reife Honigmelone oder
+½ kleine reife Cavaillon-Melone
+2 Scheiben Parmaschinken (oder
+ein anderer milder roher Schin-
+ken) oder
+2 Scheiben Räucherlachs oder
+3 EBI. Portwein
+Die Melonenschiffchen mit
+Messer und Gabel, die Portwein-
+melone mit Dessertlöffel ser-
+vieren.</ocr_text>
+    <score>0.9981491</score>
+  </object>
+  <object>
+    <name>Prep</name>
+    <bndbox>
+      <xmin>1254</xmin>
+      <ymin>645</ymin>
+      <xmax>2271</xmax>
+      <ymax>1599</ymax>
+    </bndbox>
+    <ocr_text>Melonen vor dem Aufschneiden
+mindestens 1 Std. im Kühlschrank
+kühlen. Dann der Länge nach
+halbieren und mit einem Eßlöffel
+die Kerne auskratzen. Je nach
+Größe die Melonenhälften hal-
+bieren oder vierteln. Mit Schin-
+ken oder Lachs auf den Tellern
+anrichten. Für die Portweinme-
+lone die Höhlung einer kleinen
+Melonenhälfte mit Portwein
+füllen.</ocr_text>
+    <score>0.999058</score>
+  </object>
+</annotation>
