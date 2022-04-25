@@ -1,0 +1,7 @@
+I"�<p>Heidis Koch Klub (Heidi’s Cooking Club) is a project by Ramon Moorlag.
+This project consists of 750+ German recipes for a broad appetite. Produced in the ‘70 in the German city of Stuttgart, it’s now a field of study.</p>
+
+<p>How can these recipes be liberated from paper and published on a website? This is the leading research question. The process of extracting information from PDF scans of the cards will be the main focus. And how to digitalize the 1-meter stack of cards another. The latter will be researched further at a later date. Extraction of the information will be done with the friendly help of <a href="Nanonets.com">Nanonets</a>. Hosting by <a href="www.github.com">GitHub Pages</a> and converting the data files will be done with <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+
+<p>There is a lot of information lost in the eons, millennia, decades… How many cards are there, who wrote them, how many people used them</p>
+:ET
