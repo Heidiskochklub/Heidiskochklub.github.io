@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-25T09:36:58+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Heidis Kock Klub (HKK)</title><subtitle>Heidis Koch Klub (Heidi&apos;s Cooking Club) is a project by Ramon Moorlag. This project consists of 750+ German recipes for a broad appetite. Produced in the &apos;70 in the German city of Stuttgart, it&apos;s now a field of study.</subtitle><entry><title type="html">Recept 1</title><link href="http://localhost:4000/hkk/update/2021/12/25/attempt1.html" rel="alternate" type="text/html" title="Recept 1" /><published>2021-12-25T16:41:44+01:00</published><updated>2021-12-25T16:41:44+01:00</updated><id>http://localhost:4000/hkk/update/2021/12/25/attempt1</id><content type="html" xml:base="http://localhost:4000/hkk/update/2021/12/25/attempt1.html">&lt;p&gt;demo&lt;/p&gt;</content><author><name></name></author><category term="HKK" /><category term="update" /><summary type="html">demo</summary></entry><entry><title type="html">Welcome to Heidis Koch Klub</title><link href="http://localhost:4000/hkk/update/2021/12/13/welcome-to-HKK.html" rel="alternate" type="text/html" title="Welcome to Heidis Koch Klub" /><published>2021-12-13T16:41:44+01:00</published><updated>2021-12-13T16:41:44+01:00</updated><id>http://localhost:4000/hkk/update/2021/12/13/welcome-to-HKK</id><content type="html" xml:base="http://localhost:4000/hkk/update/2021/12/13/welcome-to-HKK.html">&lt;p&gt;Heidis Koch Klub (Heidi’s Cooking Club) is a project by Ramon Moorlag.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-25T09:55:13+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Heidis Kock Klub (HKK)</title><subtitle>Heidis Koch Klub (Heidi&apos;s Cooking Club) is a project by Ramon Moorlag. This project consists of 750+ German recipes for a broad appetite. Produced in the &apos;70 in the German city of Stuttgart, it&apos;s now a field of study.</subtitle><entry><title type="html">Egg Salade</title><link href="http://localhost:4000/starter,/salade/2022/03/25/Eiersalat.html" rel="alternate" type="text/html" title="Egg Salade" /><published>2022-03-25T09:41:44+01:00</published><updated>2022-03-25T09:41:44+01:00</updated><id>http://localhost:4000/starter,/salade/2022/03/25/Eiersalat</id><content type="html" xml:base="http://localhost:4000/starter,/salade/2022/03/25/Eiersalat.html">&lt;h2 id=&quot;vorspeisen-nr-16&quot;&gt;Vorspeisen nr. 16&lt;/h2&gt;
+&lt;p&gt;The translation of this card can be found below the images.
+&lt;img src=&quot;/assets/eiersalat1.jpg&quot; alt=&quot;Heidis Kock Klub&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;8 hard-boiled eggs&lt;/li&gt;
+  &lt;li&gt;2 thick slices of boiled Ham&lt;/li&gt;
+  &lt;li&gt;4 tomatoes&lt;/li&gt;
+  &lt;li&gt;1 leek&lt;/li&gt;
+  &lt;li&gt;1 piece of cucumber&lt;/li&gt;
+  &lt;li&gt;2 tablespoon mayonnaise&lt;/li&gt;
+  &lt;li&gt;1 tablespoon mustard&lt;/li&gt;
+  &lt;li&gt;1 tablespoon White wine vinegar&lt;/li&gt;
+  &lt;li&gt;Salt and pepper&lt;/li&gt;
+  &lt;li&gt;1 tablespoon Capers&lt;/li&gt;
+  &lt;li&gt;1 bunch of chives&lt;/li&gt;
+  &lt;li&gt;1 lettuce&lt;/li&gt;
+  &lt;li&gt;1 bunch of dill or 1 packet of cress&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;preparation&quot;&gt;Preparation&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;Das hartgekochte geschälte Eier, geviertelt. Tomaten achteln. Schinken in Streifen, Lauch in Ringen und Gurke in Scheiben schneiden. In einer Schüsse alles vermischen.&lt;/li&gt;
+  &lt;li&gt;Mayonnaise mit Senf, Essig, Salz und Pfeffer verrühren.&lt;/li&gt;
+  &lt;li&gt;Portionsschalen Salat-Blätter auslegen, Eiersalat darauf häufen und mit Mayonnaise Übergießen. Mit Schnitt Lauchröllchen und Kapern bestreuen. Nach Geschmecken mit Dill- oder Kressebüschel verzieren.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/eiersalat2.jpg&quot; alt=&quot;Heidis Kock Klub&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="starter," /><category term="Salade" /><summary type="html">Vorspeisen nr. 16 The translation of this card can be found below the images.</summary></entry><entry><title type="html">Welcome to Heidis Koch Klub</title><link href="http://localhost:4000/hkk/update/2021/12/13/welcome-to-HKK.html" rel="alternate" type="text/html" title="Welcome to Heidis Koch Klub" /><published>2021-12-13T16:41:44+01:00</published><updated>2021-12-13T16:41:44+01:00</updated><id>http://localhost:4000/hkk/update/2021/12/13/welcome-to-HKK</id><content type="html" xml:base="http://localhost:4000/hkk/update/2021/12/13/welcome-to-HKK.html">&lt;p&gt;Heidis Koch Klub (Heidi’s Cooking Club) is a project by Ramon Moorlag.
 This project consists of 750+ German recipes for a broad appetite. Produced in the ‘70 in the German city of Stuttgart, it’s now a field of study.&lt;/p&gt;
 
 &lt;p&gt;How can these recipes be liberated from paper and published on a website? This is the leading research question. The process of extracting information from PDF scans of the cards will be the main focus. And how to digitalize the 1-meter stack of cards another. The latter will be researched further at a later date. Extraction of the information will be done with the friendly help of &lt;a href=&quot;Nanonets.com&quot;&gt;Nanonets&lt;/a&gt;. Hosting by &lt;a href=&quot;www.github.com&quot;&gt;GitHub Pages&lt;/a&gt; and converting the data files will be done with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;

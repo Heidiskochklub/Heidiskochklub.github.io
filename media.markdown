@@ -26,21 +26,8 @@ Salt pepper
 1 lettuce
 1 bunch of dill or 1 packet of cress
 
-# Preperation
-1. Das hartgekochte und gekochte
-geschälte Eier, geviertelt, Tomaten
-achte. Schinken in Streifen,
-Lauch in Ringen und Gurke in
-Scheiben schneiden. In einem
-Alles in der Schüssel vermischen.
-2. Mayonnaise mit Senf, Essig,
-Salz und Pfeffer mischen.
-3. Portionsschalen
-Blätter auslegen, Eiersalat
-darauf stapeln und mit Mayonnaise
-Über die Sesauce gießen. Mit Schnitt
-Lauchbrötchen und Kapern laden.
-streuen. Abschmecken mit
-Dill- oder Kressebüschel
-mit Salat-
-schmücken.
+
+# Preparation
+1. Das hartgekochte geschälte Eier, geviertelt. Tomaten achteln. Schinken in Streifen, Lauch in Ringen und Gurke in Scheiben schneiden. In einer Schüsse alles vermischen.
+2. Mayonnaise mit Senf, Essig, Salz und Pfeffer verrühren.
+3. Portionsschalen Salat-Blätter auslegen, Eiersalat darauf häufen und mit Mayonnaise Übergießen. Mit Schnitt Lauchröllchen und Kapern bestreuen. Nach Geschmecken mit Dill- oder Kressebüschel verzieren.
