@@ -1,0 +1,4 @@
+{{ with .Params.image }}
+  {{ $image := resources.Get (printf "images/%s" .) }}
+  <img src="{{ $image.RelPermalink }}" alt="{{ $.Page.Title }}">
+{{ end }}

@@ -1,0 +1,25 @@
+{{ range .Site.Data.recipes }}
+  <article>
+    <h2>{{ .title }}</h2>
+    <p>Preparation time: {{ .prep_time }}</p>
+    <h3>Ingredients:</h3>
+    <ul>
+      {{ range .ingredients }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    <h3>Instructions:</h3>
+    <ol>
+      {{ range .instructions }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ol>
+    {{ with .image }}
+    {{ $image := resources.Get (printf "images/%s" .) }}
+    <img src="{{ $image.RelPermalink }}" alt="{{ $.Page.Title }}">
+  {{ end }}
+
+
+  </article>
+ 
+{{ end }}
