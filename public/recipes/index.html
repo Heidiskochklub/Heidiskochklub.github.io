@@ -1,0 +1,920 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Recipe Collection - Recipe Collection</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="Collection of Traditional Recipes"
+  />
+  <meta name="author" content="Recipe Collection" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  
+  <meta name="generator" content="Hugo 0.140.1">
+
+  
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="http://localhost:1313/"
+      >Recipe Collection</a
+    >
+    <div
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse">
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/recipes/"
+        >Recipes</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/categories/"
+        >Categories</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+    </nav>
+    
+
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
+    >
+      
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-8">Recipe Collection</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Wiener Kaffeekoch</h2>
+            <p class="text-gray-600 mb-4">Traditional Viennese Coffee Cake with coffee-soaked rolls and whipped cream</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    medium
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    30 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    coffee
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    desserts
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>2 whole Day-old rolls</li>
+                        
+                        <li>375 ml Strong coffee</li>
+                        
+                        <li>100 g Butter</li>
+                        
+                        <li>125 g Sugar</li>
+                        
+                        <li>1 packet Vanilla sugar</li>
+                        
+                        <li>50 g Chopped almonds</li>
+                        
+                        <li>3 whole Eggs</li>
+                        
+                        <li>250 ml Cream</li>
+                        
+                        <li>1 tsp Instant coffee powder</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">Soak the rolls in coffee</li>
+                        
+                        <li class="mb-2">Beat butter until fluffy, mix well with sugar, vanilla sugar and egg yolks</li>
+                        
+                        <li class="mb-2">Add chopped almonds</li>
+                        
+                        <li class="mb-2">Squeeze out rolls well and mix with the butter mixture</li>
+                        
+                        <li class="mb-2">Fold in stiffly beaten egg whites</li>
+                        
+                        <li class="mb-2">Fill into greased ring form</li>
+                        
+                        <li class="mb-2">Bake in preheated oven for about 45 minutes at 200-220°C</li>
+                        
+                        <li class="mb-2">Turn cake onto a plate and fill the middle with coffee-whipped cream</li>
+                        
+                    </ol>
+
+                    
+                </div>
+            </details>
+        </div>
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Brennans Brûlot</h2>
+            <p class="text-gray-600 mb-4">A flambéed coffee drink with cognac and citrus</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    medium
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    15 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    coffee
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    beverages
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>1 whole Cinnamon stick</li>
+                        
+                        <li>12 whole Cloves</li>
+                        
+                        <li>2 whole Unwaxed lemons (peeled in strips)</li>
+                        
+                        <li>2 whole Unwaxed oranges (peeled in strips)</li>
+                        
+                        <li>0.5 whole Orange (juiced)</li>
+                        
+                        <li>6 whole Sugar cubes</li>
+                        
+                        <li>250 ml Cognac</li>
+                        
+                        <li>2 glasses Curaçao</li>
+                        
+                        <li>1 L Strong coffee</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">In a flambé pan, crush cinnamon stick, cloves, citrus peels, and sugar cubes</li>
+                        
+                        <li class="mb-2">Pour over cognac and Curaçao, stir and flambé</li>
+                        
+                        <li class="mb-2">Keep stirring until sugar dissolves</li>
+                        
+                        <li class="mb-2">Add orange juice and deglaze with hot coffee</li>
+                        
+                        <li class="mb-2">Fill into preheated cups and serve</li>
+                        
+                    </ol>
+
+                    
+                </div>
+            </details>
+        </div>
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Holland Kaffee</h2>
+            <p class="text-gray-600 mb-4">Dutch coffee with egg liqueur and whipped cream</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    easy
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    15 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    coffee
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    beverages
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>250 ml Hot coffee</li>
+                        
+                        <li>250 ml Egg liqueur</li>
+                        
+                        <li>250 ml Cream</li>
+                        
+                        <li>4 tsp Instant coffee</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">Whip cream until stiff and mix with instant coffee</li>
+                        
+                        <li class="mb-2">Mix hot coffee with egg liqueur and distribute into 4 preheated glasses</li>
+                        
+                        <li class="mb-2">Top each portion with whipped cream</li>
+                        
+                    </ol>
+
+                    
+                </div>
+            </details>
+        </div>
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Russischer Kaffee</h2>
+            <p class="text-gray-600 mb-4">Russian coffee with red wine and vodka</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    easy
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    10 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    coffee
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    beverages
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>250 ml Strong coffee</li>
+                        
+                        <li>250 ml Red wine</li>
+                        
+                        <li>2 tbsp Sugar</li>
+                        
+                        <li>6 tbsp Vodka</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">Combine coffee and red wine, heat with sugar but don&#39;t let it boil</li>
+                        
+                        <li class="mb-2">Add vodka and immediately fill into preheated glasses</li>
+                        
+                    </ol>
+
+                    
+                </div>
+            </details>
+        </div>
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Ananaskaffee</h2>
+            <p class="text-gray-600 mb-4">Cold coffee with pineapple juice and rum</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    easy
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    10 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    coffee
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    beverages
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>500 ml Cold coffee</li>
+                        
+                        <li>500 ml Pineapple juice</li>
+                        
+                        <li>2 small glasses Rum</li>
+                        
+                        <li>4 whole Ice cubes</li>
+                        
+                        <li>1 slice Pineapple (for decoration)</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">Mix cold coffee with pineapple juice and season with rum</li>
+                        
+                        <li class="mb-2">Distribute into 4 glasses with 1 ice cube each</li>
+                        
+                        <li class="mb-2">Add a piece of pineapple to each glass for decoration</li>
+                        
+                    </ol>
+
+                    
+                </div>
+            </details>
+        </div>
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Kaiser-Melange</h2>
+            <p class="text-gray-600 mb-4">Imperial coffee blend with honey and brandy</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    medium
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    10 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    coffee
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    beverages
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>4 whole Egg yolks</li>
+                        
+                        <li>4 tsp Water</li>
+                        
+                        <li>250 ml Cream</li>
+                        
+                        <li>4 tbsp Liquid honey</li>
+                        
+                        <li>4 cups Hot strong coffee</li>
+                        
+                        <li>4 small glasses Brandy</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">In 4 cups, mix 1 egg yolk each with 1 tsp water</li>
+                        
+                        <li class="mb-2">Bring cream to boil with honey and stir equal portions into the 4 cups</li>
+                        
+                        <li class="mb-2">Fill with hot coffee, stir and add brandy</li>
+                        
+                    </ol>
+
+                    
+                </div>
+            </details>
+        </div>
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Teeflip</h2>
+            <p class="text-gray-600 mb-4">Tea flip with milk and egg yolk</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    easy
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    15 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    tea
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    beverages
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>250 ml Milk</li>
+                        
+                        <li>1 tbsp Sugar (heaped)</li>
+                        
+                        <li>1 tsp Black tea</li>
+                        
+                        <li>1 whole Egg yolk</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">Bring milk with sugar to boil</li>
+                        
+                        <li class="mb-2">Put tea in a pot, pour over boiling milk and let steep for 5 minutes</li>
+                        
+                        <li class="mb-2">Strain tea milk and thoroughly whisk with egg yolk</li>
+                        
+                        <li class="mb-2">Serve in long drink glasses</li>
+                        
+                    </ol>
+
+                    
+                </div>
+            </details>
+        </div>
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Mocca-Menthe</h2>
+            <p class="text-gray-600 mb-4">Coffee with dark chocolate and peppermint liqueur</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    medium
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    20 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    coffee
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    beverages
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>100 g Dark chocolate</li>
+                        
+                        <li>4 cups Hot strong coffee</li>
+                        
+                        <li>8 tbsp Sugar</li>
+                        
+                        <li>4 small glasses Peppermint liqueur</li>
+                        
+                        <li>250 ml Cream</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">Slowly melt chocolate in a pot with 3 tbsp water</li>
+                        
+                        <li class="mb-2">Add hot coffee and sugar, stir well</li>
+                        
+                        <li class="mb-2">Remove pot from heat and add peppermint liqueur</li>
+                        
+                        <li class="mb-2">Beat in 3/4 of the cream with a whisk</li>
+                        
+                        <li class="mb-2">Distribute into 4 cups</li>
+                        
+                        <li class="mb-2">Whip remaining cream until stiff and place on top</li>
+                        
+                    </ol>
+
+                    
+                </div>
+            </details>
+        </div>
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Teeauflauf</h2>
+            <p class="text-gray-600 mb-4">Tea soufflé with milk and eggs</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    medium
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    30 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    tea
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    desserts
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>1 L Milk</li>
+                        
+                        <li>3 tbsp Tea</li>
+                        
+                        <li>125 g Sugar</li>
+                        
+                        <li>100 g Butter</li>
+                        
+                        <li>100 g Cornstarch</li>
+                        
+                        <li>1 pinch Salt</li>
+                        
+                        <li>4 whole Eggs</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">Bring milk with sugar to boil, pour over tea and let steep for 5 minutes</li>
+                        
+                        <li class="mb-2">Strain and let cool</li>
+                        
+                        <li class="mb-2">Make a light roux with butter and cornstarch</li>
+                        
+                        <li class="mb-2">Deglaze with tea milk and cook into thick sauce</li>
+                        
+                        <li class="mb-2">Stir in egg yolks and salt</li>
+                        
+                        <li class="mb-2">Beat egg whites until stiff and fold into slightly cooled mixture</li>
+                        
+                        <li class="mb-2">Fill into greased soufflé dish</li>
+                        
+                        <li class="mb-2">Bake in preheated oven for about 40 minutes</li>
+                        
+                    </ol>
+
+                    
+                    <div class="mt-4 p-4 bg-yellow-50 rounded">
+                        <h3 class="font-semibold mb-2">Notes:</h3>
+                        <p>Serve with compote or rum-soaked fruits</p>
+                    </div>
+                    
+                </div>
+            </details>
+        </div>
+        
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">Altenglische Teebowle</h2>
+            <p class="text-gray-600 mb-4">Old English tea bowl with port wine and cucumber</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    medium
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    15 minutes
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    tea
+                </span>
+                
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    beverages
+                </span>
+                
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        
+                        <li>1 whole Cucumber</li>
+                        
+                        <li>2 bottles Port wine</li>
+                        
+                        <li>2 small glasses Brandy</li>
+                        
+                        <li>1 L Tea (normal strength)</li>
+                        
+                        <li>1 handful Fresh mint leaves</li>
+                        
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        
+                        <li class="mb-2">Peel cucumber, halve, remove seeds carefully and dice the flesh</li>
+                        
+                        <li class="mb-2">Put cucumber dice in a punch bowl and pour over 1 bottle port wine and brandy</li>
+                        
+                        <li class="mb-2">Cover and let rest in refrigerator for 1 hour</li>
+                        
+                        <li class="mb-2">Pour over ice-cold tea and second bottle of port wine</li>
+                        
+                        <li class="mb-2">Strain into glasses and garnish each with mint leaves</li>
+                        
+                    </ol>
+
+                    
+                    <div class="mt-4 p-4 bg-yellow-50 rounded">
+                        <h3 class="font-semibold mb-2">Notes:</h3>
+                        <p>Serve ice cold</p>
+                    </div>
+                    
+                </div>
+            </details>
+        </div>
+        
+    </div>
+</div>
+
+    </main>
+
+    <footer
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
+>
+  <div class="mr-auto">
+  
+    &copy; 2024
+    <a class="link" href="http://localhost:1313/">Recipe Collection</a>
+  
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+
+  </body>
+</html>

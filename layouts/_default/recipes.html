@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-8">{{ .Title }}</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {{ range .Site.Data.recipes.collection.recipes }}
+        <div class="border rounded-lg p-6 shadow-md">
+            <h2 class="text-2xl font-semibold mb-2">{{ .title }}</h2>
+            <p class="text-gray-600 mb-4">{{ .description }}</p>
+            
+            <div class="mb-4">
+                <span class="text-sm bg-gray-100 px-2 py-1 rounded">
+                    {{ .difficulty }}
+                </span>
+                <span class="text-sm text-gray-500 ml-2">
+                    {{ .prep_time }}
+                </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                {{ range .categories }}
+                <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">
+                    {{ . }}
+                </span>
+                {{ end }}
+            </div>
+
+            <details class="mt-4">
+                <summary class="cursor-pointer text-blue-600 hover:text-blue-800">
+                    View Recipe
+                </summary>
+                <div class="mt-4">
+                    <h3 class="font-semibold mb-2">Ingredients:</h3>
+                    <ul class="list-disc pl-5 mb-4">
+                        {{ range .ingredients }}
+                        <li>{{ .amount }} {{ .unit }} {{ .name }}{{ with .notes }} ({{ . }}){{ end }}</li>
+                        {{ end }}
+                    </ul>
+
+                    <h3 class="font-semibold mb-2">Instructions:</h3>
+                    <ol class="list-decimal pl-5">
+                        {{ range .instructions }}
+                        <li class="mb-2">{{ . }}</li>
+                        {{ end }}
+                    </ol>
+
+                    {{ with .notes }}
+                    <div class="mt-4 p-4 bg-yellow-50 rounded">
+                        <h3 class="font-semibold mb-2">Notes:</h3>
+                        <p>{{ . }}</p>
+                    </div>
+                    {{ end }}
+                </div>
+            </details>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

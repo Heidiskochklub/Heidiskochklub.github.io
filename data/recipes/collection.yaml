@@ -1,0 +1,355 @@
+recipes:
+  - title: "Wiener Kaffeekoch"
+    date: 2024-12-24
+    draft: false
+    categories: ["coffee", "desserts"]
+    description: "Traditional Viennese Coffee Cake with coffee-soaked rolls and whipped cream"
+    prep_time: "30 minutes"
+    cook_time: "45 minutes"
+    total_time: "75 minutes"
+    servings: "4"
+    difficulty: "medium"
+    temperature: "200-220°C"
+    cuisine: ["Austrian", "Viennese"]
+    ingredients:
+      - name: "Day-old rolls"
+        amount: "2"
+        unit: "whole"
+      - name: "Strong coffee"
+        amount: "375"
+        unit: "ml"
+      - name: "Butter"
+        amount: "100"
+        unit: "g"
+      - name: "Sugar"
+        amount: "125"
+        unit: "g"
+      - name: "Vanilla sugar"
+        amount: "1"
+        unit: "packet"
+      - name: "Chopped almonds"
+        amount: "50"
+        unit: "g"
+      - name: "Eggs"
+        amount: "3"
+        unit: "whole"
+      - name: "Cream"
+        amount: "250"
+        unit: "ml"
+      - name: "Instant coffee powder"
+        amount: "1"
+        unit: "tsp"
+    instructions:
+      - "Soak the rolls in coffee"
+      - "Beat butter until fluffy, mix well with sugar, vanilla sugar and egg yolks"
+      - "Add chopped almonds"
+      - "Squeeze out rolls well and mix with the butter mixture"
+      - "Fold in stiffly beaten egg whites"
+      - "Fill into greased ring form"
+      - "Bake in preheated oven for about 45 minutes at 200-220°C"
+      - "Turn cake onto a plate and fill the middle with coffee-whipped cream"
+
+  - title: "Brennans Brûlot"
+    date: 2024-12-24
+    draft: false
+    categories: ["coffee", "beverages"]
+    description: "A flambéed coffee drink with cognac and citrus"
+    prep_time: "15 minutes"
+    servings: "10-12"
+    difficulty: "medium"
+    cuisine: ["American", "New Orleans"]
+    ingredients:
+      - name: "Cinnamon stick"
+        amount: "1"
+        unit: "whole"
+      - name: "Cloves"
+        amount: "12"
+        unit: "whole"
+      - name: "Unwaxed lemons"
+        amount: "2"
+        unit: "whole"
+        notes: "peeled in strips"
+      - name: "Unwaxed oranges"
+        amount: "2"
+        unit: "whole"
+        notes: "peeled in strips"
+      - name: "Orange"
+        amount: "0.5"
+        unit: "whole"
+        notes: "juiced"
+      - name: "Sugar cubes"
+        amount: "6"
+        unit: "whole"
+      - name: "Cognac"
+        amount: "250"
+        unit: "ml"
+      - name: "Curaçao"
+        amount: "2"
+        unit: "glasses"
+      - name: "Strong coffee"
+        amount: "1"
+        unit: "L"
+    instructions:
+      - "In a flambé pan, crush cinnamon stick, cloves, citrus peels, and sugar cubes"
+      - "Pour over cognac and Curaçao, stir and flambé"
+      - "Keep stirring until sugar dissolves"
+      - "Add orange juice and deglaze with hot coffee"
+      - "Fill into preheated cups and serve"
+
+  - title: "Holland Kaffee"
+    date: 2024-12-24
+    draft: false
+    categories: ["coffee", "beverages"]
+    description: "Dutch coffee with egg liqueur and whipped cream"
+    prep_time: "15 minutes"
+    servings: "4"
+    difficulty: "easy"
+    cuisine: ["Dutch"]
+    ingredients:
+      - name: "Hot coffee"
+        amount: "250"
+        unit: "ml"
+      - name: "Egg liqueur"
+        amount: "250"
+        unit: "ml"
+      - name: "Cream"
+        amount: "250"
+        unit: "ml"
+      - name: "Instant coffee"
+        amount: "4"
+        unit: "tsp"
+    instructions:
+      - "Whip cream until stiff and mix with instant coffee"
+      - "Mix hot coffee with egg liqueur and distribute into 4 preheated glasses"
+      - "Top each portion with whipped cream"
+
+  - title: "Russischer Kaffee"
+    date: 2024-12-24
+    draft: false
+    categories: ["coffee", "beverages"]
+    description: "Russian coffee with red wine and vodka"
+    prep_time: "10 minutes"
+    servings: "4"
+    difficulty: "easy"
+    cuisine: ["Russian"]
+    ingredients:
+      - name: "Strong coffee"
+        amount: "250"
+        unit: "ml"
+      - name: "Red wine"
+        amount: "250"
+        unit: "ml"
+      - name: "Sugar"
+        amount: "2"
+        unit: "tbsp"
+      - name: "Vodka"
+        amount: "6"
+        unit: "tbsp"
+    instructions:
+      - "Combine coffee and red wine, heat with sugar but don't let it boil"
+      - "Add vodka and immediately fill into preheated glasses"
+
+  - title: "Ananaskaffee"
+    date: 2024-12-24
+    draft: false
+    categories: ["coffee", "beverages"]
+    description: "Cold coffee with pineapple juice and rum"
+    prep_time: "10 minutes"
+    servings: "4"
+    difficulty: "easy"
+    cuisine: ["International"]
+    ingredients:
+      - name: "Cold coffee"
+        amount: "500"
+        unit: "ml"
+      - name: "Pineapple juice"
+        amount: "500"
+        unit: "ml"
+      - name: "Rum"
+        amount: "2"
+        unit: "small glasses"
+      - name: "Ice cubes"
+        amount: "4"
+        unit: "whole"
+      - name: "Pineapple"
+        amount: "1"
+        unit: "slice"
+        notes: "for decoration"
+    instructions:
+      - "Mix cold coffee with pineapple juice and season with rum"
+      - "Distribute into 4 glasses with 1 ice cube each"
+      - "Add a piece of pineapple to each glass for decoration"
+
+  - title: "Kaiser-Melange"
+    date: 2024-12-24
+    draft: false
+    categories: ["coffee", "beverages"]
+    description: "Imperial coffee blend with honey and brandy"
+    prep_time: "10 minutes"
+    servings: "4"
+    difficulty: "medium"
+    cuisine: ["Austrian"]
+    ingredients:
+      - name: "Egg yolks"
+        amount: "4"
+        unit: "whole"
+      - name: "Water"
+        amount: "4"
+        unit: "tsp"
+      - name: "Cream"
+        amount: "250"
+        unit: "ml"
+      - name: "Liquid honey"
+        amount: "4"
+        unit: "tbsp"
+      - name: "Hot strong coffee"
+        amount: "4"
+        unit: "cups"
+      - name: "Brandy"
+        amount: "4"
+        unit: "small glasses"
+    instructions:
+      - "In 4 cups, mix 1 egg yolk each with 1 tsp water"
+      - "Bring cream to boil with honey and stir equal portions into the 4 cups"
+      - "Fill with hot coffee, stir and add brandy"
+
+  - title: "Teeflip"
+    date: 2024-12-24
+    draft: false
+    categories: ["tea", "beverages"]
+    description: "Tea flip with milk and egg yolk"
+    prep_time: "15 minutes"
+    servings: "1-2"
+    difficulty: "easy"
+    cuisine: ["International"]
+    ingredients:
+      - name: "Milk"
+        amount: "250"
+        unit: "ml"
+      - name: "Sugar"
+        amount: "1"
+        unit: "tbsp"
+        notes: "heaped"
+      - name: "Black tea"
+        amount: "1"
+        unit: "tsp"
+      - name: "Egg yolk"
+        amount: "1"
+        unit: "whole"
+    instructions:
+      - "Bring milk with sugar to boil"
+      - "Put tea in a pot, pour over boiling milk and let steep for 5 minutes"
+      - "Strain tea milk and thoroughly whisk with egg yolk"
+      - "Serve in long drink glasses"
+
+  - title: "Mocca-Menthe"
+    date: 2024-12-24
+    draft: false
+    categories: ["coffee", "beverages"]
+    description: "Coffee with dark chocolate and peppermint liqueur"
+    prep_time: "20 minutes"
+    servings: "4"
+    difficulty: "medium"
+    cuisine: ["International"]
+    ingredients:
+      - name: "Dark chocolate"
+        amount: "100"
+        unit: "g"
+      - name: "Hot strong coffee"
+        amount: "4"
+        unit: "cups"
+      - name: "Sugar"
+        amount: "8"
+        unit: "tbsp"
+      - name: "Peppermint liqueur"
+        amount: "4"
+        unit: "small glasses"
+      - name: "Cream"
+        amount: "250"
+        unit: "ml"
+    instructions:
+      - "Slowly melt chocolate in a pot with 3 tbsp water"
+      - "Add hot coffee and sugar, stir well"
+      - "Remove pot from heat and add peppermint liqueur"
+      - "Beat in 3/4 of the cream with a whisk"
+      - "Distribute into 4 cups"
+      - "Whip remaining cream until stiff and place on top"
+
+  - title: "Teeauflauf"
+    date: 2024-12-24
+    draft: false
+    categories: ["tea", "desserts"]
+    description: "Tea soufflé with milk and eggs"
+    prep_time: "30 minutes"
+    cook_time: "40 minutes"
+    temperature: "200-220°C"
+    servings: "4"
+    difficulty: "medium"
+    cuisine: ["International"]
+    ingredients:
+      - name: "Milk"
+        amount: "1"
+        unit: "L"
+      - name: "Tea"
+        amount: "3"
+        unit: "tbsp"
+      - name: "Sugar"
+        amount: "125"
+        unit: "g"
+      - name: "Butter"
+        amount: "100"
+        unit: "g"
+      - name: "Cornstarch"
+        amount: "100"
+        unit: "g"
+      - name: "Salt"
+        amount: "1"
+        unit: "pinch"
+      - name: "Eggs"
+        amount: "4"
+        unit: "whole"
+    instructions:
+      - "Bring milk with sugar to boil, pour over tea and let steep for 5 minutes"
+      - "Strain and let cool"
+      - "Make a light roux with butter and cornstarch"
+      - "Deglaze with tea milk and cook into thick sauce"
+      - "Stir in egg yolks and salt"
+      - "Beat egg whites until stiff and fold into slightly cooled mixture"
+      - "Fill into greased soufflé dish"
+      - "Bake in preheated oven for about 40 minutes"
+    notes: "Serve with compote or rum-soaked fruits"
+
+  - title: "Altenglische Teebowle"
+    date: 2024-12-24
+    draft: false
+    categories: ["tea", "beverages"]
+    description: "Old English tea bowl with port wine and cucumber"
+    prep_time: "15 minutes"
+    rest_time: "1 hour"
+    servings: "8-10"
+    difficulty: "medium"
+    cuisine: ["English"]
+    ingredients:
+      - name: "Cucumber"
+        amount: "1"
+        unit: "whole"
+      - name: "Port wine"
+        amount: "2"
+        unit: "bottles"
+      - name: "Brandy"
+        amount: "2"
+        unit: "small glasses"
+      - name: "Tea"
+        amount: "1"
+        unit: "L"
+        notes: "normal strength"
+      - name: "Fresh mint leaves"
+        amount: "1"
+        unit: "handful"
+    instructions:
+      - "Peel cucumber, halve, remove seeds carefully and dice the flesh"
+      - "Put cucumber dice in a punch bowl and pour over 1 bottle port wine and brandy"
+      - "Cover and let rest in refrigerator for 1 hour"
+      - "Pour over ice-cold tea and second bottle of port wine"
+      - "Strain into glasses and garnish each with mint leaves"
+    notes: "Serve ice cold"

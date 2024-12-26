@@ -1,0 +1,69 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Recipe Collection"
+theme = "paper"
+
+# Enable taxonomies for recipe organization
+[taxonomies]
+  category = "categories"
+  cuisine = "cuisines"
+  difficulty = "difficulties"
+  tag = "tags"
+
+# Site parameters
+[params]
+  description = "Collection of Traditional Recipes"
+  # Recipe display settings
+  [params.recipe]
+    showPrepTime = true
+    showCookTime = true
+    showServings = true
+    showDifficulty = true
+
+# Main menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "recipes"
+    name = "Recipes"
+    url = "/recipes/"
+    weight = 1
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Default content language
+defaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.nl]
+    languageName = "Dutch"
+    weight = 2
+
+# Pagination
+paginate = 12
+
+# Image processing
+[imaging]
+  quality = 85
+  resampleFilter = "Lanczos"
+
+# Privacy settings
+[privacy]
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
